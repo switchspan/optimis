@@ -18,9 +18,8 @@ industry...(pun intended).
 
 The current implementation is a web based Rails application using the
 [HolyGrailHarness](OpenTitle://github.com/metaskills/holy_grail_harness).
-The UI is javascript based with a RESTful services back end.
-The project uses MongoDB as the DB for it's ActiveRecord models and
-Devise for authentication.
+The UI is javascript based (Ember.js) with a RESTful services back end.
+The project uses Devise for authentication.
 
 (And yes, I do know that the transformer is spelled 'Optimus' -- this
 just goes better with the acronym)
@@ -30,7 +29,7 @@ just goes better with the acronym)
 * Ruby 1.9.3+
 * Rails 3
 * Bundler
-* MongoDB
+* Ember.js
 
 ## Installation
 
