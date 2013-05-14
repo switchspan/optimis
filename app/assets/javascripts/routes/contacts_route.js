@@ -1,6 +1,6 @@
 Optimis.ContactsRoute = Ember.Route.extend({
   model: function() {
-    return Optimis.Contacts.find();
+    return Optimis.Contact.find();
   }
 });
 
