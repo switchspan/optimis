@@ -1,5 +1,7 @@
 Optimis::Application.routes.draw do
 
+  devise_for :users
+
   # get "ember/start"
 
   namespace :api do
