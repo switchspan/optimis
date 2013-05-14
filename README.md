@@ -16,9 +16,8 @@ We hope to enable innovation that is just not possible with the current
 commercial software. We also hope to 'Transform' the Real Estate
 industry...(pun intended).
 
-The current implementation is a web based Rails application using the
-[HolyGrailHarness](OpenTitle://github.com/metaskills/holy_grail_harness).
-The UI is javascript based (Ember.js) with a RESTful services back end.
+The current implementation is a web based UI using the [Ember.js Framework](http://emberjs.com/) with a RESTful services back
+end via Rails 1.9.3.
 The project uses Devise for authentication.
 
 (And yes, I do know that the transformer is spelled 'Optimus' -- this
