@@ -1,0 +1,12 @@
+<h1>Contacts</h1>
+
+<ul>
+  {{#each contact in controller}}
+    <li>{{#linkTo 'contact' contact}}{{contact.name}}{{/linkTo}}</li>
+  {{else}}
+    <li>There are no contacts.</li>
+  {{/each}}
+</ul>
+
+{{outlet}}
+
