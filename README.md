@@ -55,9 +55,8 @@ run.
 ### Credits
 
 This project uses the
-[HolyGrailHarness](https://github.com/metaskills/holy_grail_harness)
-project by [Ken Collins](http://metaskills.net/) as its foundation.
-(Thanks Ken!) 
+[Ember.js](https://emberjs.com/)
+project by Yehuda Katz, Tom Dale, et. al.
 
 ### License
 
