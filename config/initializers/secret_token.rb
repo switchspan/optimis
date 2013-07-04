@@ -1,7 +1,12 @@
 # Be sure to restart your server when you modify this file.
 
-# Your secret key for verifying the integrity of signed cookies.
+# Your secret key is used for verifying the integrity of signed cookies.
 # If you change this key, all old signed cookies will become invalid!
+
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Optimis::Application.config.secret_token = '03b1b0d9e12c5b6913000124b4b6dd00fc0140753dd1ceab42d7b3b31d63aea17aaefe83d705b94ede408e33a73aaa314ffc97b6c990a58384a85feb9c4b9466'
+# You can use `rake secret` to generate a secure secret key.
+
+# Make sure your secret_key_base is kept private
+# if you're sharing your code publicly.
+Optimis::Application.config.secret_key_base = '73d7b5838fec04ffe8297a9e6fbf410f6ae5f12a2a5d446068a2a09dffd44322f2e3b8fb971c8562e8f17bfd7bbbc27b322fe1cd900af72724130bd17d5c13be'
