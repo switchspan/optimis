@@ -16,8 +16,8 @@ We hope to enable innovation that is just not possible with the current
 commercial software. We also hope to 'Transform' the Real Estate
 industry...(pun intended).
 
-The current implementation is a web based UI using the [Ember.js Framework](http://emberjs.com/) with a RESTful services back
-end via Rails 1.9.3.
+The current implementation is a web based UI with a RESTful services back
+end via Rails 4.
 The project uses Devise for authentication.
 
 (And yes, I do know that the transformer is spelled 'Optimus' -- this
@@ -26,9 +26,9 @@ just goes better with the acronym)
 ## Prerequisites
 
 * Ruby 1.9.3+
-* Rails 3
+* Rails 4
 * Bundler
-* Ember.js
+* PostgreSQL
 
 ## Installation
 
@@ -55,9 +55,7 @@ run.
 
 ### Credits
 
-This project uses the
-[Ember.js](https://emberjs.com/)
-project by Yehuda Katz, Tom Dale, et. al.
+TBD
 
 ### License
 
